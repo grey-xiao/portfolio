@@ -1,10 +1,42 @@
-
+html {
+    margin: 1em;
+}
 body {
     background-color: #16161D;
     color: #F7F5FB;
-
+    font-family: 'Jaldi', sans-serif;
+    font-size: 1.2rem;
+}
+main {
+    color: #F7F5FB;
 }
 a {
-    text-decoration-style: none;
-    -moz-text-decoration-style: none;
+    text-decoration: none;
+    -moz-text-decoration: none;
+    color: #F7F5FB;
+}
+ul {
+    list-style-type: none;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 32em;
+
+}
+.logo {
+    font-size: 2rem;
+    margin:  0 0.4em 0 0.4em
+}
+.hero {
+    display: flex;
+    flex-flow: row;
 }
