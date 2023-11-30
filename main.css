@@ -1,14 +1,18 @@
 html {
-    margin: 1em;
+    font-size: 16px;
 }
 body {
     background-color: #16161D;
     color: #F7F5FB;
     font-family: 'Jaldi', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.25rem;
+    margin: 0;
 }
 main {
     color: #F7F5FB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 a {
     text-decoration: none;
@@ -22,7 +26,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
+    margin: 1em 2em 0 2em;
 }
 
 .nav {
@@ -36,7 +40,155 @@ nav {
     font-size: 2rem;
     margin:  0 0.4em 0 0.4em
 }
+/*Columns*/
+.col-1 {
+    margin: 0 4em;
+}
+.col-2 {
+    width: 50%;
+}
+.intro {
+    margin: 0 4em;
+}
+.profile {
+    margin: 0 4em;
+}
+.profile img {
+    width: 24em;
+    height: 24em;
+    border-radius: 24px;
+}
+.socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+/*Sections*/
+.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.section-side {
+    width: 10%;
+}
+.section-mid {
+    width: 80%;
+}
+
 .hero {
     display: flex;
     flex-flow: row;
+    justify-content: center;
+    background-color: #16161D;
+    margin: 4em 0 4em 0;
+    
+}
+.about {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin: 4em 0 4em 0;
+}
+
+
+
+
+/*Heading Text*/
+.big {
+    font-size: 4rem;
+    line-height: 0.4rem;
+    font-weight: bold;
+}
+.big span {
+    color: #54BAD0;
+}
+.med {
+    font-size: 3rem;
+    line-height: 0.8rem;
+    font-weight: bold;
+}
+.small {
+    font-size: 2rem;
+}
+.smaller {
+    font-size: 1.5rem;
+}
+
+.italic {
+    font-style: italic;
+}
+.bold {
+    font-weight: bold;
+}
+
+/*color*/
+.bg-lighter {
+    background-color: #54BAD01A;
+}
+
+
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+button {
+    font-size: 1rem;
+    /*
+    width: 8em;
+    height: 2em;
+    */
+    padding: 1em 2.4em 1em 2.4em;
+    border-radius: 8px;
+    margin-right: 2rem;
+    border-width: 1px;
+}
+.primary {
+    color: #F7F5FB;
+    background-color: #54BAD0;
+    border-color: #54BAD0;
+}
+.secondary {
+    color: #F7F5FB;
+    background-color: #16161D;
+    border-color: #F7F5FB;
+}
+.icon {
+    background-color: #54BAD0;
+    border-color: #54BAD0;
+    min-width: 32px;
+    min-height: 32px;
+    border-radius: 4px;
+}
+
+img.icon {
+    margin-right: 1.6em;
+    border-radius: 8px;
+}
+.skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+.skill img {
+    background-color: #54BAD01A;
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: 1em;
+}
+.skill {
+    border-radius: 8px;
+    line-height: 0.8rem;
+    background-color: #16161D;
+    display: flex;
+    flex: 1 1 20%;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding: 0 1em 0 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
 }
